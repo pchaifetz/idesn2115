@@ -3,10 +3,13 @@ body { font-family: helvetica;
         align-content: center; }
 
 h1 { color: blue;
+    font-family: helvetica;
      align-content: center;}
 
 h2 {color: green;
+    font-family: helvetica;
     align-content: center;}
 
 h3 {color: red;
+    font-family: helvetica;
     align-content: center;}
