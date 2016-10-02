@@ -1,15 +1,16 @@
-body { font-family: helvetica;
-        background-color: gray;
-        align-content: center; }
+body { font-family: avenir;
+        background-color: white;
+         font-style: normal}
 
 h1 { color: blue;
-    font-family: helvetica;
-     align-content: center;}
+    font-family: futura;
+     font-style: normal}
 
 h2 {color: green;
-    font-family: helvetica;
-    align-content: center;}
+    font-family: futura;
+    font-style: italic}
 
 h3 {color: red;
-    font-family: helvetica;
-    align-content: center;}
+    font-family: avenir;
+    font-style: normal;
+    font-stretch:ultra-expanded;}
