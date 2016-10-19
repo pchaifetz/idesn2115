@@ -1,0 +1,38 @@
+h1 {font-family:georgia, serif;
+  font-size: 26px;
+}
+
+h2 {text-transform: uppercase;
+  font-family:georgia, serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h3 { display: none;
+  /*visibility: hidden;*/
+  text-transform: uppercase;
+  font-family: verdana;
+  color: gray;
+  font-size: 16px
+}
+
+p.green { color: green;
+  font-family: helvetica;
+  font-weight: lighter;
+
+}
+
+p.blue { color: #24408E;
+  font-family: serif;
+}
+
+p.pink { color: #EC008B;
+  font-family: courier;
+
+}
+
+p.green, p.blue, p.pink {  color: black;
+
+}
+/*not correct ask about*/
+/*p::first-line  {  text-transform: uppercase;}*/
