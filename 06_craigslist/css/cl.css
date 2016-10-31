@@ -653,8 +653,12 @@ color:#00f;border:1px solid #00f}
 white-space:nowrap}
 
 .toc a{
+<<<<<<< HEAD
 text-decoration:none;
 color:green }
+=======
+text-decoration:none}
+>>>>>>> origin/master
 
 .toc a:hover{
 text-decoration:underline}
