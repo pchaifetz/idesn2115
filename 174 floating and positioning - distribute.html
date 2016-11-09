@@ -1,0 +1,126 @@
+<!-- Constraint: do not alter the HTML. -->
+<!-- Hint: relative positioning will help you more than you may think. -->
+<!-- Tackle the blue square last. -->
+<html>
+    <head>
+        <title>174 floating and positioning.html</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px ;
+                padding: 0 ;
+            }
+
+            /* big box classes */
+
+            .red_big_top_left {
+                position: relative ;
+                background: red;        
+            }
+
+            .red_big_bottom_left {
+                position: relative ;
+                background: red;        
+            }
+
+            .green_big_top_right {
+                position: absolute ;
+                background: green;
+                top:0;
+                right: 0 ;
+
+            }
+
+            .green_big_bottom_right {
+                position: absolute ;
+                background: green;
+                right: 0;
+                top:455;
+            }
+
+            /* small box classes */
+
+            .green_small_bottom_right {
+                background: green;
+                position: relative ;
+                left: 290 ;
+                top: 290 ;
+            }
+
+            .green_small_top_left {
+                background: green;
+            }
+
+            .red_small_bottom_left {
+                background: red;
+                position: relative ;
+                top: 290 ;
+                left:0;        
+            }
+
+            .red_small_top_right {
+                background: red;
+                position: relative ;
+                top: 0 ;
+                left:290;          
+            }
+
+            /* "shared" classes */
+
+            .big {
+                width: 450px ;
+                height: 450px;
+                margin: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+
+            .small {
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+
+            /* cyan box */
+
+            .cyan_big {
+                background: cyan;
+                border: 3px solid #fff ;
+                position: absolute;
+                top: 50% ;
+                left: 50% ;
+                margin-top: -225px ;
+                margin-left: -225px ;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+    
+        <div class="red_big_top_left big">
+            <div class="green_small_bottom_right small">&nbsp;</div>
+        </div>
+        <div class="red_big_bottom_left big">
+            <div class="green_small_top_left small">&nbsp;</div>
+        </div>
+        <div class="green_big_top_right big">
+            <div class="red_small_bottom_left small">&nbsp;</div>
+        </div>
+        <div class="green_big_bottom_right big">
+            <div class="red_small_top_right small">&nbsp;</div>
+            
+            
+        </div>
+       <div class="cyan_big big"></div>
+         
+        
+    
+        
+    
+    </body>
+</html>
