@@ -9,140 +9,211 @@
 
 
 /* basic elements */
-html {background-color: ;
+html {
+    background-color: black;
+    border-right: 15px solid white;
+    margin-left: 30px;
+    
+   
      }
 
 body {
-     padding: 0;
-     margin: 0;
-     width: 100%;
-     height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
     }
 
 	
 	
-p { font-family: monospace;
+p   { 
+    font-family: monospace;
     font-size: 10px;
+    line-height: 150%;
     
-}
-	
-	
-h2 {width: 300px;
-    height: 50px;
     
-}
-
+    
+    }
+	
 
 div#zen-summary.summary, div#zen-preamble.preamble, div#zen-explanation.explanation, div#zen-participation.participation, div#zen-benefits.benefits, div#zen-requirements.requirements
-    {font-family: monospace;
+    {
+    
+    font-family: monospace;
     font-size: 10px;
     width: 400px;
     background-color: #F7F7F7;
     padding: 25px;
+    top: 590px;
     margin: 25px;
     position: relative;
-    left: 50px;
+    left: 120px;
     box-shadow: -8px 0  15px 2px #888;
-        
-
-        
-        
     
-    }
+}
+
 
 
 
 
 
 h3 { 
+    font-size: 14px;
 	
-	}
-a:link { font-size: 10px;
-        color: coral;
-        
-	
-	}
+}
+
+a:link { 
+    font-size: 10px;
+    color: coral;
+    text-decoration: none;
+}
 
 a:visited { 
 	
-	}
-a:hover { letter-spacing: 1px;
-	
-	}
-a.design-name, a.designer-name {color: black;}
+}
 
-a.zen-validate-html, a.zen-validate-css, a.zen-license, a.zen-accessibility, a.zen-github { color: white;
-    font-family: monospace;
+a:hover { 
+    letter-spacing: 1px;
+	
+}
+
+
+a.design-name, a.designer-name {
+    color: black;}
+
+a.designer-name {
+    letter-spacing: 0px;
     
+}
+
+a.zen-validate-html, a.zen-validate-css, a.zen-license, a.zen-accessibility, a.zen-github { 
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
     
 }
 
 
-abbr {
+abbr { font-style:bold;
+    font-size: 12px;
 	
 	}
 
 
 /* specific divs */
 .page-wrapper { 
+    background-color: black;
+   
+    overflow: scroll;
+    
+    
 	}
 
-.intro { 
+.intro {position: fixed;
+    top: 100px;
+    height: 610px;
+    width: 10px;
+   border: 15px solid white;
+    margin-left: 0px;
+    
+    margin-top: -50px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+     border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+   
+
 	
 	}
 
-h1 {position: fixed;
+h1 {
     font-family: monospace;
-    text-align: right;
-    color: white;
-    font-size: 30px;
-    width: 300px;
-  
-    border: solid white;
-    padding: 50px;
-    padding-right: 2px;
-    margin: 25px;
-    margin-top: -100px;
-    margin-left: -20px;
-/*    position: relative;*/
+    color: black;
+    font-size: 40px;
+   
+    padding-top: 150px;
+    padding-bottom: 140px;
+    padding-left: 120px;
+    padding-right: 100px;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 50%;
+    border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
     
-	}
+   
+    }
+
 
 header {
-   background-color: black;
-   margin: 0px;
-
-    padding-top: 200px;
-    padding-left: 100px;
-  
-}
-
-
-
-
-h1:hover{color:coral}
-
-
-header h2 { 
-    text-align: left;
-    font-family: monospace;
-    padding-left: 50px;
-    color: white;
-    float: top;
+    background-color: black;
+    border: 15px solid white;
+    padding-left: 10px;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
     
     
+    box-shadow: -8px 0  15px 2px gray;
+   
+    position: fixed;
+    border-radius: 50%;
+     border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+   
+   
+  }
+
+
+h1:hover{ color: coral;
     
 	
 	}
 
+h2{
+    font-family: monospace;
+    color: black;
+    border-bottom-color: teal;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: -8px 0  15px 2px gray;
+    position: fixed;
+    top: 0px;
+    left: 500px;
+    border: 9px solid white;
+   border-radius: 50%;
+    width: 6%;
+    
+   margin: inherit;
+
+    
+
+    
+}
+
 .summary { 
-	
+    text-align: left;
+    color: black;
+     
+   
 	}
 .summary p {
 	
 	}
 
-.preamble {
+.preamble { 
 	
 	}
 .supporting {	
@@ -154,11 +225,15 @@ footer {
     background-color: black;
     border-bottom-color: black;
     padding-bottom: 5px;
-   position: fixed;
+    position: fixed;
     right: 0px;
     bottom: 0px;
-     width: 50%;
+    width: 40%;
     z-index: 5px;
+    clear: both;
+
+    border-bottom: 7px solid antiquewhite;
+    border-right: 15px solid white;
 	}
 
 footer a:link, footer a:visited { 
@@ -171,22 +246,30 @@ aside.sidebar {background-color: transparent;
 }
 
 .sidebar {
+/*
+    position: fixed;
+    top: 13px;
+    right: 0px;
+  
+*/
     position: fixed;
     
     right: 0px;
     
-    bottom: 30px;
+    bottom: 90px;
   }
 
 .wrapper {
   
 	font-family: monospace;
-    text-align: right;
+    text-align: left;
+    padding-left: 15px;
     font-size: 10px;
-    width: 250px;
-    border: 3px solid black;
+    width: 220px;
+    border: 3px solid dimgray;
     border-right: 20px solid black;
-    
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
     padding-right: 5px;
     
     background-color: white;
@@ -194,14 +277,26 @@ aside.sidebar {background-color: transparent;
 	}
 
 
-.sidebar h3.select { 
+.sidebar h3.select {font-style: italic;
+    
+    
+    text-align: left;
+    padding-left: 2px;
+
+    background-color: antiquewhite;
 	
 	
 	}
-.sidebar h3.archives { 
-	
+.sidebar h3.archives { font-style: italic;
+    text-align: left;
+	 padding-left: 2px;
+    background-color: antiquewhite;
+
 	}
-.sidebar h3.resources { 
+.sidebar h3.resources {font-style: italic; 
+    text-align: left;
+     padding-left: 2px;
+    background-color: antiquewhite;
 	
 	}
 
@@ -237,6 +332,6 @@ aside.sidebar {background-color: transparent;
 	}
 
 
-.extra1 {
+.extra1 {border-right: 15px solid white;
 	
 	}

@@ -1,0 +1,18 @@
+<html>
+    <head> <title>fake html tag</title></head>
+    
+<style type="text/css">
+
+    p {color: red;}
+    
+    imposter {color: blue;}
+    
+    
+    <body>
+        
+        <p>this is a real html tag</p>
+        <imposter>this is a fake html tag</imposter>
+        <p>this is a real html tag</p>
+    
+    </body>
+</html>
