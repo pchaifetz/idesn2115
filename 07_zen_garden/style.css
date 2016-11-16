@@ -1,0 +1,401 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+    background-color: white;
+    border-top: 15px solid antiquewhite;
+    border-left: 15px solid antiquewhite;
+    border-right: 15px solid antiquewhite;
+    
+    
+   
+    
+   
+     }
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+     
+    
+    }
+
+	
+	
+p   { 
+    font-family: monospace;
+    font-size: 10px;
+    line-height: 150%;
+    
+    
+    
+    }
+	
+
+
+div#zen-summary.summary, div#zen-preamble.preamble, div#zen-explanation.explanation, div#zen-participation.participation, div#zen-benefits.benefits, div#zen-requirements.requirements
+    {
+    
+    font-family: monospace;
+    font-size: 10px;
+    width: 400px;
+    background-color: #F7F7F7;
+    padding: 25px;
+    top: 650px;
+    margin: 25px;
+    position: relative;
+    left: 65px;
+    box-shadow: -8px 0  15px 2px #888;
+    border-left: 10px solid rosybrown;
+
+    
+}
+
+div#zen-summary.summary{
+    position: fixed;
+    background: transparent;
+    padding: 1px;
+    width: 200px;
+    left: 590px;
+    top: 3px;
+    box-shadow: none;
+    border-left: none;
+    
+
+  
+    
+    
+    
+
+}
+
+
+
+
+h3 { 
+    font-size: 15px;
+	
+}
+
+a:link { 
+    font-size: 10px;
+    color: rosybrown;
+    text-decoration: none;
+}
+
+a:visited { 
+	
+}
+
+a:hover { 
+    letter-spacing: 1px;
+	
+}
+
+
+a.design-name, a.designer-name {
+    color: rosybrown;}
+
+a.designer-name {
+    color: black;
+    letter-spacing: 0px;
+    
+}
+
+a.zen-validate-html, a.zen-validate-css, a.zen-license, a.zen-accessibility, a.zen-github { 
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+
+abbr { font-style:bold;
+    font-size: 12px;
+	
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+    background-color: none;
+   overflow: scroll;
+    
+    
+	}
+
+.intro {position: fixed;
+    top: 100px;
+    left: 50px;
+    height: 505px;
+    width: 553px;
+/*   border: 15px solid white;*/
+    margin-left: 1px;
+     margin-top: -50px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+     border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+   
+
+	
+	}
+
+h1 {
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+   text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    left: 70px;
+    top: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 45px;
+    border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+    
+   
+    }
+
+
+header {
+    background-color:white;
+/*    border: 15px solid white;*/
+    padding-left: 0px;
+
+    
+    
+   
+   
+    position: fixed;
+    top: 90px;
+    left: 100px;
+    width: 450px;
+    height: 420px;
+    border-radius: 50%;
+     border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+   
+   
+  }
+
+
+h1:hover{ color: antiquewhite;
+    
+	
+	}
+
+h2{
+/*
+    font-family: monospace;
+    color: black;
+    border-bottom-color: teal;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: -8px 0  15px 2px gray;
+    position: fixed;
+    top: 50px;
+    left: 400px;
+    border: 9px solid white;
+   border-radius: 50%;
+    width: 6%;
+    
+   margin: inherit;
+*/
+
+    font-family: monospace;
+    color: black;
+    padding-top: 40px;
+    font-size: 7px;
+   
+    
+     border-bottom: 7px solid antiquewhite;
+    border-top: 7px solid antiquewhite;
+    
+   text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    position: fixed;
+    top: 206px;
+    height: 135px;
+    left: 225px;
+    border-radius: 50%;
+    
+    
+    
+
+    
+}
+
+
+.summary {font-family: monospace;
+   color: black;
+
+    
+    
+   
+     
+   
+	}
+.summary p { background-color: transparent;
+    padding: 3px;
+    
+    
+    }
+
+.preamble { position: fixed;
+    top: 5px;
+    
+	
+	}
+.supporting {
+	
+	}
+
+footer {
+	text-align: right;
+    background-color: bisque;
+    border-bottom: 15px solid antiquewhite;
+    border-left: 15px solid antiquewhite;
+    padding-bottom: 5px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 25%;
+    z-index: 5px;
+    clear: both;
+
+    border-bottom: 7px solid antiquewhite;
+    border-right: 15px solid antiquewhite;
+	}
+
+footer a:link, footer a:visited { 
+    color: black;
+	margin-right: 20px; 
+	}
+
+
+aside.sidebar {border-left: 5px solid #F7F7F7;
+    clear: both;
+}
+
+.sidebar {
+/*
+    position: fixed;
+    top: 13px;
+    right: 0px;
+  
+*/
+    position: fixed;
+    
+    right: 20px;
+    top: 20px;
+    bottom: 100px;
+    width: 22%;
+    height: 85%;
+    overflow: hidden;
+    background-color: white;
+  }
+
+.wrapper {
+  
+	font-family: monospace;
+    text-align: left;
+   
+    font-size: 10px;
+    width: 220px;
+    padding-left: 10px;
+    
+/*    border-right: 20px solid black;*/
+    
+    padding-right: 5px;
+    
+    background-color: transparent;
+    
+    
+	}
+
+
+.sidebar h3.select {font-style: italic;
+    
+    
+    text-align: left;
+    padding-left: 2px;
+    padding-bottom: 5px;
+
+   color: black;
+    background-color: none;
+    width: 100%;
+	
+	
+	}
+.sidebar h3.archives { font-style: italic;
+    text-align: left;
+	 padding-left: 2px;
+    background-color: none;
+
+	}
+.sidebar h3.resources {font-style: italic; 
+    text-align: left;
+     padding-left: 2px;
+    background-color: none;
+	
+	}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+    
+	}
+.sidebar ul:link {
+	color:black;
+    
+	}
+.sidebar li {
+	line-height: 1.3em;  
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	
+    
+	}
+
+
+ .sidebar li  a.design-name:hover {
+	color: cornflowerblue;
+	}
+.sidebar li a:hover {
+	color: cadetblue;
+	}
+
+.sidebar li a:visited {
+	color: black;
+	}
+
+
+.extra1 {border-right: 15px solid white;
+	
+	}
